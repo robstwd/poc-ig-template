@@ -33,7 +33,7 @@ jobs:
         run: gem install jekyll --no-document
     
       - name: Build with FHIR IG Publisher
-        run: java -jar publisher.jar 
+        run: java -jar publisher.jar .
           
       - name: "Build & test"
         run: |
