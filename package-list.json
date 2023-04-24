@@ -1,0 +1,23 @@
+﻿{
+  "package-id" : "rob.template.poc",
+  "title" : "Proof of concept template for Rob's IGs",
+  "canonical" : "http://example.com/rob/templates/rob.template.poc",
+  "introduction" : "This is the basic template for HL7 guides",
+  "list" : [
+    {
+      "version" : "current",
+      "desc" : "Continuous Integration Build (latest in version control)",
+      "path" : "http://example.com/rob/templates/rob.template.poc",
+      "status" : "ci-build",
+      "current" : true
+    },
+    {
+      "version" : "0.0.1",
+      "desc" : "First release",
+      "path" : "http://example.com/rob/templates/rob.template.poc/0.0.1",
+      "status" : "release",
+      "sequence" : "Publications",
+      "date" : "2024-04-25"
+    }
+  ]
+}

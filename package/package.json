@@ -1,0 +1,13 @@
+﻿{
+  "name" : "rob.template.poc",
+  "type" : "fhir.template",
+  "license" : "CC0-1.0",
+  "description" : "Proof of concept template for Rob's IGs",
+  "author" : "Rob Eastwood (himself)",
+  "canonical" : "http://example.com/rob/templates/rob.template.poc",
+  "base" : "fhir.base.template",
+  "dependencies" : {
+    "fhir.base.template" : "current"
+  },
+  "version" : "0.0.1"
+}
