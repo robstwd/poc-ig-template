@@ -5,6 +5,8 @@ on:
     tags:
       - "v*"
 
+permissions: write-all
+
 jobs:
   tagged-release:
     name: "Tagged Release"
